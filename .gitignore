@@ -18,7 +18,7 @@ pz_server_key
 *.pub
 *.crt
 *.ssh
-*.json  # Evita subir qualquer arquivo JSON, como chaves do GCP
+*.json
 
 # Diretórios e arquivos do sistema
 .DS_Store
@@ -30,3 +30,4 @@ Thumbs.db
 # Arquivos de configuração do editor
 .vscode/
 .idea/
+*.json
