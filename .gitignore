@@ -1,0 +1,30 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Chaves e credenciais
+*.pem
+*.key
+pz_server_key
+*.crt
+*.ssh
+*.json  # Evita subir qualquer arquivo JSON, como chaves do GCP
+
+# Diretórios e arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Arquivos de configuração do editor
+.vscode/
+.idea/
