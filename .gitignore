@@ -14,6 +14,7 @@ override.tf.json
 *.pem
 *.key
 pz_server_key
+*.pub
 *.crt
 *.ssh
 *.json  # Evita subir qualquer arquivo JSON, como chaves do GCP
